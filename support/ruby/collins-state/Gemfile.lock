@@ -22,7 +22,7 @@ GEM
     rake (10.0.2)
     rdoc (3.12)
       json (~> 1.4)
-    redcarpet (2.2.2)
+    redcarpet (3.5.1)
     rspec (2.10.0)
       rspec-core (~> 2.10.0)
       rspec-expectations (~> 2.10.0)
