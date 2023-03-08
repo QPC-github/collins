@@ -69,7 +69,7 @@ Gem::Specification.new do |s|
       s.add_runtime_dependency(%q<highline>, ["~> 1.6.15"])
       s.add_runtime_dependency(%q<mustache>, ["~> 0.99.4"])
       s.add_runtime_dependency(%q<pry>, ["~> 0.9.9.6"])
-      s.add_runtime_dependency(%q<rubygems-update>, ["~> 1.8.24"])
+      s.add_runtime_dependency(%q<rubygems-update>, ">= 1.8.24", "< 3.5.0")
       s.add_runtime_dependency(%q<terminal-table>, ["~> 1.4.5"])
       s.add_runtime_dependency(%q<thor>, ["~> 0.16.0"])
     else
@@ -77,7 +77,7 @@ Gem::Specification.new do |s|
       s.add_dependency(%q<highline>, ["~> 1.6.15"])
       s.add_dependency(%q<mustache>, ["~> 0.99.4"])
       s.add_dependency(%q<pry>, ["~> 0.9.9.6"])
-      s.add_dependency(%q<rubygems-update>, ["~> 1.8.24"])
+      s.add_dependency(%q<rubygems-update>, ">= 1.8.24", "< 3.5.0")
       s.add_dependency(%q<terminal-table>, ["~> 1.4.5"])
       s.add_dependency(%q<thor>, ["~> 0.16.0"])
     end
@@ -86,7 +86,7 @@ Gem::Specification.new do |s|
     s.add_dependency(%q<highline>, ["~> 1.6.15"])
     s.add_dependency(%q<mustache>, ["~> 0.99.4"])
     s.add_dependency(%q<pry>, ["~> 0.9.9.6"])
-    s.add_dependency(%q<rubygems-update>, ["~> 1.8.24"])
+    s.add_dependency(%q<rubygems-update>, ">= 1.8.24", "< 3.5.0")
     s.add_dependency(%q<terminal-table>, ["~> 1.4.5"])
     s.add_dependency(%q<thor>, ["~> 0.16.0"])
   end
